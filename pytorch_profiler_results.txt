@@ -1,0 +1,44 @@
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                             Name    Self CPU %      Self CPU   CPU total %     CPU total  CPU time avg    # of Calls  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+                     aten::conv2d         1.16%       1.011ms        82.60%      72.312ms       1.205ms            60  
+                aten::convolution         0.66%     575.811us        81.45%      71.300ms       1.188ms            60  
+               aten::_convolution         0.91%     794.962us        80.79%      70.725ms       1.179ms            60  
+         aten::mkldnn_convolution        76.93%      67.346ms        79.88%      69.930ms       1.165ms            60  
+                      aten::silu_         6.96%       6.092ms         6.96%       6.092ms     106.869us            57  
+                        aten::cat         4.04%       3.539ms         4.51%       3.949ms     197.461us            20  
+                 aten::max_pool2d         0.03%      27.229us         2.17%       1.900ms     633.171us             3  
+    aten::max_pool2d_with_indices         2.14%       1.872ms         2.14%       1.872ms     624.095us             3  
+                      aten::empty         1.60%       1.402ms         1.60%       1.402ms      10.384us           135  
+                    aten::resize_         1.01%     886.768us         1.01%     886.768us      13.436us            66  
+                      aten::copy_         0.79%     694.073us         0.79%     694.073us      46.272us            15  
+                 aten::contiguous         0.02%      17.201us         0.78%     685.076us     137.015us             5  
+                      aten::clone         0.05%      40.160us         0.76%     667.875us     133.575us             5  
+                        aten::mul         0.52%     454.570us         0.62%     539.450us      35.963us            15  
+         aten::upsample_nearest2d         0.23%     197.012us         0.52%     457.994us     228.997us             2  
+                    aten::sigmoid         0.49%     425.636us         0.49%     425.636us     141.879us             3  
+                        aten::add         0.48%     417.868us         0.48%     417.868us      41.787us            10  
+                     aten::narrow         0.18%     153.548us         0.47%     410.291us      13.235us            31  
+                aten::as_strided_         0.42%     370.247us         0.42%     370.247us       6.171us            60  
+                      aten::slice         0.22%     193.823us         0.29%     256.743us       8.282us            31  
+                 aten::as_strided         0.24%     211.115us         0.24%     211.115us       2.742us            77  
+                      aten::stack         0.03%      30.021us         0.20%     176.523us      58.841us             3  
+                     aten::arange         0.09%      81.025us         0.19%     162.591us      13.549us            12  
+                         aten::to         0.04%      33.921us         0.18%     155.068us      12.922us            12  
+                     aten::select         0.13%     117.786us         0.17%     145.121us       9.675us            15  
+                        aten::sub         0.07%      65.074us         0.15%     134.127us      44.709us             3  
+           aten::split_with_sizes         0.06%      50.216us         0.15%     132.108us      44.036us             3  
+                   aten::_to_copy         0.07%      60.169us         0.14%     121.147us      13.461us             9  
+                   aten::meshgrid         0.05%      44.988us         0.14%     120.001us      40.000us             3  
+                     aten::expand         0.09%      77.241us         0.11%      96.693us       8.058us            12  
+                       aten::view         0.08%      72.009us         0.08%      72.009us       4.801us            15  
+                 aten::empty_like         0.03%      26.868us         0.08%      68.293us      13.659us             5  
+                        aten::pow         0.06%      53.166us         0.07%      56.928us      18.976us             3  
+                    aten::permute         0.05%      39.934us         0.06%      49.541us      16.514us             3  
+              aten::empty_strided         0.03%      29.048us         0.03%      29.048us       3.228us             9  
+                  aten::unsqueeze         0.02%      19.678us         0.03%      26.485us       4.414us             6  
+                       aten::ones         0.01%      10.260us         0.02%      19.003us       9.501us             2  
+                      aten::fill_         0.01%       5.665us         0.01%       5.665us       2.833us             2  
+                aten::result_type         0.00%       2.627us         0.00%       2.627us       0.876us             3  
+---------------------------------  ------------  ------------  ------------  ------------  ------------  ------------  
+Self CPU time total: 87.542ms

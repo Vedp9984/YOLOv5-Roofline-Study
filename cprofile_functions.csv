@@ -1,0 +1,3 @@
+function,calls,total_time,per_call,cumulative
+module.py:1735(_wrapped_call_impl),4473,0.016,0.0,2.103
+module.py:1743(_call_impl),4473,0.039,0.0,2.103
